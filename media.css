@@ -1,0 +1,196 @@
+@media screen and (max-width: 1050px) { 
+  
+}
+ @media screen and (max-width: 950px) { 
+    .header-menu-mobile{
+        margin-left: 0px;
+    }
+    .header-list a {
+        padding: 0 9px;
+        }
+    .header-button{
+    margin-left: 0;
+    }
+     .party-season-title {
+        font-size: 45px;
+        line-height: 46px;
+        margin-bottom: 20px;
+    }
+    .fun-flex{
+        max-width: 708px;
+    } 
+    .fun-block-two {
+        padding: 80px 65px 40px;
+    }
+    .fun-title {
+        font-size: 33px;
+        line-height: 37px;
+        margin-bottom: 5px;
+       
+  }
+  .fun-subtitle {
+    margin-bottom: 25px;
+ } 
+}
+@media screen and (max-width: 767px){
+    .header-menu{
+        justify-content: space-around;
+    }
+    .header-burger{
+        display: block;
+
+    }
+    .header-logo {
+        width: 128px;
+        height: 76px;
+    }
+    .header-menu-mobile{
+        flex-direction: column;
+        padding: 30px 0 0;
+        position: fixed;
+        width: 250px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: #191919;
+        border-color: #191919;
+        z-index: 100;
+        right: -300px;
+        transition: .5s ease;
+        overflow: auto;
+}
+.header-menu-mobile-active{
+    right: 0;
+}
+.header-list{
+    flex-direction: column;
+    width: 100%;
+    top: 75px;
+    left: 10px;
+    margin-bottom: 20px;
+}
+.header-list li{
+    width: 100%;
+    border-bottom: 1px solid white;
+
+}
+.header-close-mobile{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+ }
+    .header-line-close{
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        display: block;
+ }
+ .header-line-close:first-child{
+    transform: translateY(-50%) rotate(45deg);
+}
+.header-line-close:last-child{
+    transform: translateY(-50%) rotate(-45deg); 
+}
+ .party-season{
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 20px;
+ }   
+ .party-season-block-one, .party-season-block-two{
+    width: 70%;
+}
+.party-season-title {
+    font-size: 27px;
+    line-height: 30px;
+}  
+.features-title{
+    font-size: 34px;
+    margin-bottom: 50px;
+} 
+.features-block {
+    padding: 0px 17px 55px;
+} 
+.fun-flex{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fun-block{
+    width: 70%;
+} 
+.menu-name {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.menu-items {
+    grid-template-areas:
+        "menu-item-one" 
+        "menu-item-three"
+        "menu-item-four"
+        "menu-item-two"  
+        "menu-item-five"
+        "menu-item-six"
+        "menu-item-seven";
+ }
+ .menu-items{
+     width: 90%;
+     margin: auto;
+ }
+ .menu-item-subtitle{
+     max-width: 100%;
+ }
+.menu-item-subtitle-right, .menu-item-title-right{
+    text-align: left;
+}
+.gallery-subtitle {
+    font-size: 40px;
+   margin-bottom: 30px;
+    line-height: 44px;
+}
+.footer-block{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-subtitle{
+    font-size: 40px;
+    margin-bottom: 20px; 
+}
+}
+
+
+@media screen and (max-width: 530px){ 
+    .carnaval-subtitle {
+        font-size: 38px;
+        line-height: 37px;
+    }
+
+    .carnaval-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .carnaval-text {
+        line-height: 20px;
+        font-size: 15px;
+    }
+.party-season-block-one, .party-season-block-two, .fun-block {
+        width: 90%;
+    }
+.party-season-block-one{
+    padding: 55px 35px 60px;
+ }
+ .fun-block-two {
+    padding: 45px 30px 25px;
+}
+.review-info-subtitle{
+    font-size: 31px;
+    line-height: 35px;
+}
+}
+
+   
