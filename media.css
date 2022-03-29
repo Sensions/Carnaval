@@ -173,10 +173,15 @@
         font-size: 30px;
         line-height: 30px;
     }
-
+    .carnaval-info{
+        padding: 40px 10px 20px;
+    }
     .carnaval-text {
         line-height: 20px;
         font-size: 15px;
+    }
+    .mask-text{
+        font-size: 18px;
     }
 .party-season-block-one, .party-season-block-two, .fun-block {
         width: 90%;
