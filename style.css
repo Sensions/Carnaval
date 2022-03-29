@@ -72,15 +72,11 @@ img{
 }
 /* HEADER START */
 header{
-    padding-top: 25px;
-}
-.header-menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
     width: 100%;
-
-
+    top: 0;
+    left: 0;
+    padding-top: 25px;
 }
 .header-menu-scrolled{
     position: fixed;
@@ -92,6 +88,14 @@ header{
     z-index: 701;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
     transition: .5s ease-in-out;
+}
+.header-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
 }
 .header-menu-mobile{
     display: flex;
@@ -150,7 +154,7 @@ header{
 /* CARNAVAL START */
 .carnaval {
     background-color: #e22c38;
-    padding: 15px 10px 0;
+    padding: 140px 10px 0;
 }
 
 .carnaval-bg,
